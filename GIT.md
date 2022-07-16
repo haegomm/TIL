@@ -46,9 +46,57 @@
   -  start, open : 폴더/파일 엶
   
 -----------------------
-----------------------
+-----------------------
 
+# GIT초기 설정
+- 커밋의 기록을 위해 username과 email 설정
+ 
+  *작성자 수정시, 원하는 username과 email을 적고 동일하게 입력*
+  ```bash
+  git config --global user.name "이름"
+  git congig --global user.email "메일 주소"
+  ```
+
+- 설정 확인
+  ```bash
+  git config --global -l
+  
+  or
+
+  git config --global --list
+  ```
+
+-----------------------
+-----------------------
+# GIT의 3가지 공간
+- Working Directory 
+  : 사용자의 작업영역
+
+- Staging Area
+  : commit을 위한 파일 및 폴더들이 위치하고 있는 영역
+
+- Repository
+  : commit(변경사항)을 저장하는 영역
+
+
+  **why staging area?*
+  - 일부분만 커밋
+  - 충돌 해결
+  - 커밋 다시하기
+-----------------------
+# Git의 Status(상태)
+```bash
+git status
+```
+- Unmodified : 최신 상태
+- Modified : 수정 후 아직 Staging Area에 반영하지 않은 상태
+- Staged : 수정 후 Staging Area에 추가(git add)한 상태
+- Committed : 로컬데이터 베이스에 저장된 상태
+
+-----------------------
+-----------------------
 # Github에 업로드
+- git init : 현재 작업 중인 디렉토리를 Git으로 관리한다는 명령어 *(master)
 - git remote : 로컬 저장소에 원격 저장소를 등록, 조회 , 삭제 할 수 있는 명령어
   
 1. 등록

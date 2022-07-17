@@ -84,6 +84,7 @@
   - 충돌 해결
   - 커밋 다시하기
 -----------------------
+-----------------------
 # Git의 Status(상태)
 ```bash
 git status
@@ -129,3 +130,31 @@ git status
    ```bash
    git push origin master
    ```
+-------------------
+-------------------
+# .gitignore
+
+- Git 버전 관리에서 제외할 파일 혹은 버전 지정
+-
+  *README랑 .gitignore은 프로젝트 생성하고 맨 처음 만들고 시작해야 함*
+
+-------------------
+-------------------
+# clone, pull
+```bash
+git clone <원격 저장소 주소>
+```
+-다운로드
+ - 폴더 생성
+ - git init
+ - git remote add
+ - 버전, 파일 생성
+  
+  *clone은 위의 4가지를 다 해주는 명령어*
+<br/><br/>
+
+```bash
+git pull origin master
+```
+-업데이트
+

@@ -190,3 +190,71 @@ absolute를 쓸 때는 부모를 잘보자. static인지 아닌지…
 div 는 블록이니깐 마진 탑 뭐 이런게 적용이 되고
 
 span은 인라인이니깐 마진 탑 사이즈 뭐 이런게 적용이 안됨
+
+### CSS Layout
+
+### float
+
+inline-block 이랑 flex 랑 차이
+
+### Flex box
+
+수직 수평 축을 통해서 정렬
+
+float나 absolute는 값을 다 정해줘야하고 어려우니깐 간단하게 정렬하기 위해서 flex box~!
+
+부모 에서 자식까지만 flex가 적용됨 자손까지는 안감.
+
+그러면 자손에도 flex를 먹이기 위해선? 자식에게도 flex를 먹이면 됨
+
+flex box 속성
+
+→ 부모 컨테이너 : 부모를 flex container로 만드는 것 ⇒ display: flex;
+
+→ 자식 아이템
+
+wrap 크기가 줄어들지 않고 넘어감.
+
+nowrap이면 크기가 줄어들고 넘어가지 않음.
+
+flex-flow : directon + wrap 같이 쓸 수 있음
+
+justify는 항상 메인축이랑 붙어다님. 메인축을 기준으로 아이템 배치.
+
+justify-content 메인축을 기준으로 각 클래스 아이템을 어떻게 배치할지를 설정하는 것.
+
+align-item교차축(메인축의 수직)을 기준으로.
+
+content / items
+
+content-여러개
+
+item-1개
+
+*justify-items,-self 는 flex box에서 무시당함*
+
+부모 컨테이너 에 이걸 주면 자식이 이걸 받음
+
+display flex
+
+flex wrap
+
+align
+
+자식한테 주면 자손이 저 기능을 받음
+
+자식 기능
+
+glow 여백을 얼마나 차지하냐~
+
+align self
+
+혼자만 이동
+
+order 로 순서 바꾸는.
+
+보여지는 것만 바뀜. html은 그대로~
+
+**Netlify**
+
+html css 이미지 파일 압축해서 던짐

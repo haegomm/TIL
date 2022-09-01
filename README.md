@@ -1,8 +1,8 @@
 # Today I Learned
 
-### Learn List
-✔ python
+### 🛠 Learn List
+🎈 python
 
-✔ html, css
+🎈 html, css
 
-✔ django
+🎈 django

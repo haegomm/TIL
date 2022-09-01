@@ -2,5 +2,7 @@
 
 ### Learn List
 ✔ python
+
 ✔ html, css
+
 ✔ django

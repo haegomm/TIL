@@ -6,3 +6,5 @@
 🎈 html, css
 
 🎈 django
+
+🎈 DB

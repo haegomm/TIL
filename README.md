@@ -8,3 +8,5 @@
 🎈 django
 
 🎈 DB
+
+🎈 JavaScript
